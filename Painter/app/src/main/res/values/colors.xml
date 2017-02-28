@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#FF4081</color>
+    <color name="pink">#FF9999</color>
+    <color name="pink_pressed">#FFC8C8</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="black_semi_transparent">#B2000000</color>
+
+    <color name="border_color">#B2000000</color>
+    <color name="canvas_color">#fafafa</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="pallet_white">#B2FFFFFF</color>
+    <color name="pallet_black">#B2000000</color>
+    <color name="pallet_red">#FFF73859</color>
+    <color name="pallet_redPink">#B2ED5485</color>
+    <color name="pallet_yellow">#B2FDDA16</color>
+    <color name="pallet_orange">#B2FF7844</color>
+    <color name="pallet_blue">#B23F51B5</color>
+</resources>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.theblackcat102.painter.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        android:background="@color/canvas_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.theblackcat102.painter.canvasContainer
+            android:id="@+id/signature_canvas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor = "#FFF" />
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:id="@+id/multiple_actions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            fab:fab_addButtonColorNormal="@color/white"
+            fab:fab_addButtonColorPressed="@color/white_pressed"
+            fab:fab_addButtonPlusIconColor="@color/half_black"
+            fab:fab_labelStyle="@style/menu_labels_style"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp">
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/share_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_icon="@drawable/ic_share"
+                fab:fab_colorNormal="@color/white"
+                fab:fab_colorPressed="@color/white_pressed"/>
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/action_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_icon="@drawable/ic_clear"
+                fab:fab_colorNormal="@color/white"
+                fab:fab_colorPressed="@color/white_pressed"/>
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/action_resize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                fab:fab_icon="@drawable/ic_brush_resize"
+                fab:fab_colorNormal="@color/white"
+                fab:fab_colorPressed="@color/white_pressed"/>
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+        <SeekBar
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sizeSelector"
+            android:layout_marginBottom="120dp"
+            android:rotation="180"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:clickable="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="32dp"
+            app:backgroundTint="@color/pallet_blue"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/fab_border"
+            app:elevation="0dp"
+            android:id="@+id/color1"
+            android:layout_alignBottom="@+id/color2"
+            android:layout_alignParentStart="true"
+            android:onClick="changeBlue"
+            android:layout_alignParentBottom="true"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:clickable="true"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="48dp"
+            app:backgroundTint="@color/pallet_black"
+            android:layout_alignParentBottom="true"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/fab_border"
+            app:elevation="0dp"
+            android:onClick="changeBlack"
+            android:id="@+id/blackBtn" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:clickable="true"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="88dp"
+            app:backgroundTint="@color/pallet_red"
+            android:layout_alignParentBottom="true"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/fab_border"
+            app:elevation="0dp"
+            android:onClick="changeRed"
+            android:id="@+id/btnRed" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:clickable="true"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="130dp"
+            app:backgroundTint="@color/pallet_redPink"
+            android:layout_alignParentBottom="true"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/fab_border"
+            app:elevation="0dp"
+            android:onClick="changeRedPink"
+            android:id="@+id/color3" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:clickable="true"
+            android:layout_marginBottom="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="175dp"
+            app:backgroundTint="@color/pallet_orange"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/fab_border"
+            app:elevation="0dp"
+            android:onClick="changeOrange"
+            android:id="@+id/orangeBtn" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:clickable="true"
+            android:background="@drawable/fab_border"
+            android:layout_marginBottom="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="220dp"
+            app:backgroundTint="@color/pallet_yellow"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/fab_border"
+            app:elevation="0dp"
+            android:onClick="changeYellow"
+            android:id="@+id/yellowBtn" />
+
+    </RelativeLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

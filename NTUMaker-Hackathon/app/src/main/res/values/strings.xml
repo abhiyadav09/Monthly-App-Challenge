@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WearableNTU</string>
+    <string name="status1">精神狀態\n疲倦</string>
+    <string name="status2">精神狀態\n良好</string>
+    <string name="status3">精神狀態\n恍神</string>
+    <string name="status4">精神狀態\n</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+    </string-array>
+    <string name="title_activity_status2">狀態</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

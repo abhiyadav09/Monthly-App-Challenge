@@ -6,10 +6,12 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.view.View;
@@ -31,6 +33,8 @@ import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.Set;
 import java.util.UUID;
+import java.util.jar.Manifest;
+import android.Manifest
 
 public class Status2 extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -161,14 +165,20 @@ public class Status2 extends AppCompatActivity
             Ringtone r = RingtoneManager.getRingtone(getApplicationContext(), alert);
             r.play();
         } else if (id == R.id.nav_gallery) {
-            try{
-                Intent callIntent = new Intent(Intent.ACTION_CALL);
-                callIntent.setData(Uri.parse("tel:0903182184"));
-                startActivity(callIntent);
+
+            if(ActivityCompat.checkSelfPermission(this, android.Manifest.permission.CALL_PHONE)!= PackageManager.PERMISSION_GRANTED){
+                RequestPermission();
+            }else{
+                try{
+                    Intent callIntent = new Intent(Intent.ACTION_CALL);
+                    callIntent.setData(Uri.parse("tel:0903182184"));
+                    startActivity(callIntent);
+                }
+                catch(SecurityException e){
+                    e.printStackTrace();
+                }
             }
-            catch(SecurityException e){
-                e.printStackTrace();
-            }
+
         } else if (id == R.id.nav_slideshow) {
             Log.d("Bluetooth","background started");
             mBtAdapter = BluetoothAdapter.getDefaultAdapter();
@@ -234,5 +244,7 @@ public class Status2 extends AppCompatActivity
         return true;
     }
 
-
+    private void RequestPermission(){
+        ActivityCompat.requestPermissions(this,new String[]{android.Manifest.permission.CALL_PHONE},1);
+    }
 }

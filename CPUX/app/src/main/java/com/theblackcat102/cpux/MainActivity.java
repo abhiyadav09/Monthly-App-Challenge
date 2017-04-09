@@ -1,17 +1,30 @@
 package com.theblackcat102.cpux;
 
+import android.content.Intent;
 import android.content.Context;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.support.annotation.IdRes;
+import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.util.Log;
-import android.widget.ArrayAdapter;
+import android.support.annotation.NonNull;
+import android.view.View;
 import android.widget.ListView;
+import android.support.design.widget.BottomNavigationView;
+
+
+import com.roughike.bottombar.BottomBar;
+import com.roughike.bottombar.OnTabSelectListener;
 
 import java.util.List;
+
+
+
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
     private SensorManager mSensorManager;
@@ -20,12 +33,13 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     ListView sensorLists;
     private List<Sensor> deviceSensors;
     private SensorAdapter adapter;
-
     private float gravity[] = new float[3];
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        BottomBar bottomBar = (BottomBar) findViewById(R.id.bottomBar);
+        bottomBar.setDefaultTab(R.id.tab_sensor);
         mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         deviceSensors = mSensorManager.getSensorList(Sensor.TYPE_ALL);
 
@@ -33,12 +47,40 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         content = new String[deviceSensors.size()];
         for (int i = 0; i < deviceSensors.size(); i++)
             names[i] = deviceSensors.get(i).getName();
-//
-//        }
+
         sensorLists = (ListView) findViewById(R.id.sensorListView);
         adapter = new SensorAdapter(this, content,names);
         sensorLists.setAdapter(adapter);
+        bottomBar.setOnTabSelectListener(new OnTabSelectListener() {
+            @Override
+            public void onTabSelected(@IdRes int tabId) {
+                switch (tabId) {
+                    case R.id.tab_smartphone:
+                        Log.d("sensor","stats");
+                        Intent stats = new Intent(getApplicationContext(),InfoActivity.class);
+                        startActivity(stats);
+                        break;
+                    case R.id.tab_cpu:
+                        Log.d("sensor","cpu");
+                        Intent cpu_page = new Intent(getApplicationContext(), CPUActivity.class);
+                        startActivity(cpu_page);
+                        break;
+//                    case R.id.tab_sensor:
+//                        Intent sensor = new Intent(getApplicationContext(),MainActivity.class);
+//                        startActivity(sensor);
+//                        Log.d("sensor","sensor");
+//                        break;
+                    case R.id.tab_about:
+                        Intent about = new Intent(getApplicationContext(),AboutActivity.class);
+                        startActivity(about);
+                        Log.d("sensor","about");
+                        break;
+
+                }
+            }
+        });
     }
+
 
     @Override
     public final void onAccuracyChanged(Sensor sensor, int accuracy) {

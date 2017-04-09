@@ -46,7 +46,7 @@ public class Pairing extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pairing);
         mBtAdapter = BluetoothAdapter.getDefaultAdapter();
-        ListView bluetoothName = findViewById(R.id.BluetoothList);
+        ListView bluetoothName = (ListView)findViewById(R.id.BluetoothList);
 
 //        adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_spinner_item, arrayList);
 //        list = (ListView) findViewById(R.id.bluetoothList);

@@ -3,192 +3,84 @@
 
     <item
         is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jar="/Users/theblackcat/Desktop/Monthly-App-Challenge/NTUMaker-Hackathon/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_648ab1fd27564ae9fe2b4bf00f77d9a1b2056a12/classes.dex" />
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/NTUMaker-Hackathon/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_857e8755ba2190dde813946299bdc64efd92bc01/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/theblackcat/.android/build-cache/a8fe33d65fb69abf90f6b8f3b2f4031a61803ad9/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="24dbf9eea9fe54fb87f4c4ae3d0d4c4643feabaf">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_0fd79ec8d4fdff754d52c4aa1f6d1501dc2f0474/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.1_060a10fc599b83e19de349d9ce042995dc88f22c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d9f3637f081a1cdb1c2808c513f807604c887b81">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b1321f48593b074dab4a208661ddd2abf95fdfe9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_46fc92bf4c48d57777339ea1d57a70d6fb277c30/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_d3a2a5305af581e60a6de4e3586cf952a99655ac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.1_0f859c6ba405c53fddf15c50669f49624e70a293/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
         sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_8972cdf25523345f50efcfc471beac018cc8cc3a/classes.dex" />
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/NTUMaker-Hackathon/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_71d399811d779c73df2cb36758dafe3563df7069/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jar="/Users/theblackcat/Desktop/Monthly-App-Challenge/NTUMaker-Hackathon/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_5b0941945acacbde1e47651ea95430f40405b75c/classes.dex" />
+        revision="25.0.0"
+        sha1="fc906cccadcd082ec6e23d929e5ea9fa390d7a96">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/NTUMaker-Hackathon/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_de14ec3591cba86c19a4aa91fb0b0ad47dd5acdb/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/theblackcat/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jar="/Users/theblackcat/.android/build-cache/b78cf068e2d4a7974f8c2149a5091c9cc9e90ea4/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_3ec22cdad40ee4eb7522b72900b262f8cd796336/classes.dex" />
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/NTUMaker-Hackathon/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c6159cfc9db76e399e7b4f2e526201e826636d02/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jar="/Users/theblackcat/.android/build-cache/0065b60d35ee2160ff2a43f80abe7354eb2da49c/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_2b5d210e4af9f6329255211f5f3863673c6725fa/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_42b5de6ef554c9859f53f9e59a10cc5b483897bb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_821be5baad46fcda5f5f58f71ae72254f8098052/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_7ad0932a29628fda9ed4821009522c5c24484986/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_763abc177d25a03f7c1e2e44495912cd14cb73e7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.akexorcist/bluetoothspp/1.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="a77138ac5211331e9579024c12bedabe3c835260">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.akexorcist-bluetoothspp-1.0.0_a4279397f4c75a08cadb2bffac7d435c85acee4f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_624ec28d8cfb471084e3ce083f7da88c46818e4d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_6af317d358aee1ce03d4e754a77536c2e0e4501f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_df335e15f6baa041486db0c45b8865197dd56975/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_4fed4e240447538d540af823958c91a51d3a3a69/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
         sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
-        <dex dex="/Users/theblackcat/Desktop/NTU_makeer/WearableNTU/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_8c463435753ac4b4c44baae3bee6b1b28a6a8f9b/classes.dex" />
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/NTUMaker-Hackathon/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f0b5e0e84dff7c643747525c1128ce25c611ce1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/112c3706010301c1f0b043749f08c38cd366c515/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/NTUMaker-Hackathon/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_468163ae10ac8f0ed2b93d2fbc17b3059021ed1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/78ac8a1279b85987783b0cb93a6a2219bda146f3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/NTUMaker-Hackathon/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c94be127dd124fa9903c9247e5d98bfdd32162ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/3555faa6abfc8cb898804a795b109c778a3491d6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a77138ac5211331e9579024c12bedabe3c835260">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/NTUMaker-Hackathon/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_90aa524ea6e8eca282c6378d377f31743cca7f6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/d40f8bdc493b184817e2dc8e15363f0c5cfaf1f9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/NTUMaker-Hackathon/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4b91f6b8fb4e213de42cde2f0c53ddc54467671e/classes.dex" />
     </item>
 
 </items>

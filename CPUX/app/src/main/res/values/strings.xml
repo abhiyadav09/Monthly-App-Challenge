@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">CPUX</string>
+    <string name="app_name">CPussy</string>
+    <string name="text_sensors">Sensors</string>
+    <string name="text_about">About</string>
+    <string name="text_cpu">CPU</string>
+    <string name="text_smartphone">Stats</string>
 </resources>

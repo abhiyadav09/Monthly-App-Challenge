@@ -2,328 +2,184 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_a54c70f5edb7c1984fed05fbeac9bc1eb666abee.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_5e8a035173df38fe97766ba5cda144ff1dac01b3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_a5cec1501d715cccd37909fa06a0ba30938b5f34.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        is-multidex="true"
+        jar="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_205003dbd1bcb1ba5623e704b266923641a12dd3.jar" />
+        revision="25.0.0"
+        sha1="db5b71e4cd57f73bea397c1836a76cbd4b32d68a">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f4cc414fc375f93fa5724f07700b7824bb789128/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_360a8f5fa47357e7e8150e576b9a891ed8cb4375.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_dff3af84e409a4824f91e53e7a288d56c495a46a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_7f08e62a3c9d50c74b87359186b32be4e82f9c92.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_8513cb97b0882cca6a4e3f6068cd165af68c76e5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_3ec22cdad40ee4eb7522b72900b262f8cd796336.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_0162b905e53e9fa0dbb33af6cbe74798abb0575e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_3e4556b7a06992b1a046625f85209d32b1c8d994.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_9312b07f8a791d3d1f08d68d72389d04d5515f43.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_96ed4760aa3a35a2851ea47be8d91c4f268db6eb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_733ce3989969a8056f056deb7eaf0d0c9e582930.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.10.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.getbase-floatingactionbutton-1.10.1_ad91449385cb65448bc6b79c12d95bf632a7ddc1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_360a8f5fa47357e7e8150e576b9a891ed8cb4375.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_ac30a44f27455961cccb237f77fdc1a3ec004839.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_9542cd648c41cc15bd6c55dbf144f6b34f5ae2c7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_dff3af84e409a4824f91e53e7a288d56c495a46a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_9542cd648c41cc15bd6c55dbf144f6b34f5ae2c7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_7f08e62a3c9d50c74b87359186b32be4e82f9c92.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_b81d2095126a393e6dc51af73548505004d89494.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f83b00041ecfba705603fec40363416c7de69719">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_5e8a035173df38fe97766ba5cda144ff1dac01b3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_96ed4760aa3a35a2851ea47be8d91c4f268db6eb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_8513cb97b0882cca6a4e3f6068cd165af68c76e5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_205003dbd1bcb1ba5623e704b266923641a12dd3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_a5cec1501d715cccd37909fa06a0ba30938b5f34.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_a54c70f5edb7c1984fed05fbeac9bc1eb666abee.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.getbase/floatingactionbutton/1.10.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.getbase-floatingactionbutton-1.10.1_ad91449385cb65448bc6b79c12d95bf632a7ddc1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_9312b07f8a791d3d1f08d68d72389d04d5515f43.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_0162b905e53e9fa0dbb33af6cbe74798abb0575e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.1"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_733ce3989969a8056f056deb7eaf0d0c9e582930.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/theblackcat/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
         sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_3ec22cdad40ee4eb7522b72900b262f8cd796336.jar" />
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_3ec22cdad40ee4eb7522b72900b262f8cd796336/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.1"
-        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_3e4556b7a06992b1a046625f85209d32b1c8d994.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/e26baf65972c9e937b96515ab60bb71e62b7a8e2/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
-        revision="24.0.1"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_ac30a44f27455961cccb237f77fdc1a3ec004839.jar" />
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_12d10cac1161bbfd17e1c1cdab508885853ddf24/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/c7958a62ff4759d811e75fca5fcf19caeb1fcacc/output/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
-        revision="24.0.1"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e897a5eb482eb5577d963099d61dffafa4f6fa64/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/c922eb0373b106bb43b12eb58f146735b17035e7/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8ed0b5541e41adb75631dc17b912ea69b23c26d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/e93cf5ef3009f866e391db45d2b01808d34597a1/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_620054c07fbe32082e534b74cb1b1ca16ce1b8ea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/e26baf65972c9e937b96515ab60bb71e62b7a8e2/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_131360dfb51be45a7850a3c251b9537145b9edd4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/03c9d1752e04eb8e348a72216f6d96befaab9468/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2c02c0ca7415adee99d0bdb642f2719ba409d902/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/1bbc016187c1495a65eb332a105fe8ca6f62b968/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_317aa2997821b2f9281af3987792a20691ec05ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/8be2bc3c1b23f6644afe5c229ff0463f0eb1510d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_77135cd1de9fe2a75a53d5ce37885cb554b9d3ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/6641d4b9903be9e23b543b8d562751424c3e06c5/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_3ecc87a3e7023d5ccab54d51d1eb09ee03647ab0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/6641d4b9903be9e23b543b8d562751424c3e06c5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
         sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
-        <dex dex="/Users/theblackcat/Desktop/painter_app/Painter/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_b81d2095126a393e6dc51af73548505004d89494.jar" />
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1e6de375c6a046007163f7db3402771cfa885f9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/c0b7a255ea3fcd23345cfc0202987bb67899ac2d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b9ccaf2c1b070b42950f5442753cb2a0714862f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/e93cf5ef3009f866e391db45d2b01808d34597a1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dfca108b9864c0f109ab2587ffbcba42417db90c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/c0b7a255ea3fcd23345cfc0202987bb67899ac2d/output/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_59fdc31aa208d24d95f0a5b363c70c320a54ba8f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/d92979861e628d751adcd4eb0d10390ae0a69d35/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_49bf225a7ee9e8009b690abdf068cb20f5592bb8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f0eafe34214fe10fd5c8902825e18890b07fb06e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/4487ff55d7c1a5b614db253d72ae687a6376df37/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_92de8d0fd90a872076a69d6b6ca8f6952c852a72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/a8d3151bdb086d98d511c73d585e637e6d9501cf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f40cf334cdc8b098b74312e21c7741c6eefbeb0e">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4847990c4250dd8289143be07b3661afc51de922/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/theblackcat/.android/build-cache/c922eb0373b106bb43b12eb58f146735b17035e7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/theblackcat/Desktop/Monthly-App-Challenge/Painter/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_82350423f08d3e575aa168ecca0ef4aa374151c7/classes.dex" />
     </item>
 
 </items>

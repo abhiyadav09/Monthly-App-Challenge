@@ -25,11 +25,12 @@ public class canvasContainer extends View {
     private Bitmap bitmap;
     Context context;
     private static final float TOLERANCE = 5;
-    private float mX,mY;
+    private float mX, mY;
     private float brushSize;
     private int brushColor;
-    public canvasContainer(Context c, AttributeSet attrs){
-        super(c,attrs);
+
+    public canvasContainer(Context c, AttributeSet attrs) {
+        super(c, attrs);
         context = c;
         strokes = new ArrayList<Stroke>();
         brushSize = 8f;
@@ -37,23 +38,23 @@ public class canvasContainer extends View {
     }
 
     @Override
-    public void onSizeChanged(int w,int h,int oldw,int oldh){
-        super.onSizeChanged(w,h,oldw,oldh);
+    public void onSizeChanged(int w, int h, int oldw, int oldh) {
+        super.onSizeChanged(w, h, oldw, oldh);
         height = h;
         width = w;
-        bitmap = Bitmap.createBitmap(w,h, Bitmap.Config.ARGB_8888);
+        bitmap = Bitmap.createBitmap(w, h, Bitmap.Config.ARGB_8888);
         canvas = new Canvas(bitmap);
     }
 
     @Override
-    protected void onDraw(Canvas canvas){
+    protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        for(Stroke s: strokes){
-            canvas.drawPath(s.getPath(),s.getPaint());
+        for (Stroke s : strokes) {
+            canvas.drawPath(s.getPath(), s.getPaint());
         }
     }
 
-    private void startTouch(float x,float y){
+    private void startTouch(float x, float y) {
         Path mPath;
         Paint mPaint;
         mPath = new Path();
@@ -63,32 +64,38 @@ public class canvasContainer extends View {
         mPaint.setStyle(Paint.Style.STROKE);
         mPaint.setStrokeJoin(Paint.Join.ROUND);
         mPaint.setStrokeWidth(brushSize);
-        mPath.moveTo(x,y);
-        strokes.add(new Stroke(mPath,mPaint));
+        mPath.moveTo(x, y);
+        strokes.add(new Stroke(mPath, mPaint));
         mX = x;
         mY = y;
     }
 
-    private void moveTouch(float x,float y){
-        Path drawPath = strokes.get(strokes.size() -1).getPath();
+    private void moveTouch(float x, float y) {
+        Path drawPath = strokes.get(strokes.size() - 1).getPath();
         float dx = Math.abs(x - mX);
         float dy = Math.abs(y - mY);
-        if(dx >= TOLERANCE || dy >= TOLERANCE){
-            drawPath.quadTo(mX,mY,(x+mX)/2,(y+mY)/2);
+        if (dx >= TOLERANCE || dy >= TOLERANCE) {
+            drawPath.quadTo(mX, mY, (x + mX) / 2, (y + mY) / 2);
             mX = x;
             mY = y;
         }
     }
 
-    private void upTouch(){
+    private void upTouch() {
         Path path = strokes.get(strokes.size() - 1).getPath();
-        path.lineTo(mX,mY);
+        path.lineTo(mX, mY);
     }
 
-    public void clearCanvas(){
+    public void clearCanvas() {
         strokes.clear();
         invalidate();
     }
+
+    public void undoCanvas() {
+        strokes.remove(strokes.size()-1);
+        invalidate();
+    }
+
 
     public void changeBrushColor(int color){
         Path mPath;

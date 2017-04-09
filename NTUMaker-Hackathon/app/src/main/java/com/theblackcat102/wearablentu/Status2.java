@@ -34,7 +34,7 @@ import java.util.ArrayList;
 import java.util.Set;
 import java.util.UUID;
 import java.util.jar.Manifest;
-import android.Manifest
+//import android.Manifest;
 
 public class Status2 extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {

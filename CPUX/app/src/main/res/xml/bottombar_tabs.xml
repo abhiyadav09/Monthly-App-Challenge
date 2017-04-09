@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_cpu"
+        icon="@drawable/ic_chip"
+        title="@string/text_cpu" />
+    <tab
+        id="@+id/tab_sensor"
+        icon="@drawable/ic_neurons"
+        title="@string/text_sensors" />
+    <tab
+        id="@+id/tab_smartphone"
+        icon="@drawable/ic_smartphone"
+        title="@string/text_smartphone" />
+    <tab
+        id="@+id/tab_about"
+        icon="@drawable/ic_about"
+        title="@string/text_about" />
+</tabs>

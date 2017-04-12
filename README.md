@@ -36,3 +36,21 @@ info. This application also implemented @roughike awesome
 bottom bar!
 
 ```
+
+## April
+![Alt text](/img/bikeline.jpg?raw=true "Optional Title")
+```
+
+This is a collaborate project with my friends in NCTU, be sure to 
+see the original [repo](https://github.com/w86763777/BikeLine) and give
+him a star!!!
+
+This app implment a complex fragment activity and mutiple layer service for
+parsing the restaurant coordinate in the route you choose. 
+
+## In order to get it running, you must :
+Add your api key to string/api-keys.xml 
+Add your api key to the key parameter in FindRestaurant.java
+
+
+```

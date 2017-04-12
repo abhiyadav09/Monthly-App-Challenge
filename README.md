@@ -48,6 +48,10 @@ him a star!!!
 This app implment a complex fragment activity and mutiple layer service for
 parsing the restaurant coordinate in the route you choose. 
 
+Our plan is to enable people to share their route and showed it on map, 
+hence people can try cycling the route and rate it according to their 
+experience
+
 ## In order to get it running, you must :
 Add your api key to string/api-keys.xml 
 Add your api key to the key parameter in FindRestaurant.java

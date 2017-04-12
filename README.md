@@ -1,5 +1,8 @@
 # Monthly-App-Challenge
-Make an app every month 
+
+Make an app every month, that's all
+
+
 ##  January
 ![Alt text](/img/painting.jpg?raw=true "Optional Title")
 ```

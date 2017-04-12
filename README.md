@@ -16,7 +16,8 @@ sketch idea through jpeg image!
 ![Alt text](/img/bluetooth.jpg?raw=true "Optional Title")
 ```
 
-Start coding this app in 24 hours, it has a usable bluetooth code inside. 
+Finish this app in 24 hours, it has a usable bluetooth service with 
+complete socket receiver. 
 However, due to the flawness of the bluetooth device we own, we weren't 
 able to have successful connection to our crap module. Nonetheless, during 
 the development proccess I do manage to get it connected once and the 

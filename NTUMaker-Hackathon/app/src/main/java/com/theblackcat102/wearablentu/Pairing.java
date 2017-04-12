@@ -75,7 +75,6 @@ public class Pairing extends AppCompatActivity {
             public void run() {
                 try {
                     Thread.sleep(4000);
-
                     Intent intent = new Intent(Pairing.this,LinkFinished.class);
                     startActivity(intent);
                 } catch (InterruptedException e) {
@@ -84,6 +83,7 @@ public class Pairing extends AppCompatActivity {
                 }
             }
         }.start();
+
         new Thread()
         {
             public void run() {

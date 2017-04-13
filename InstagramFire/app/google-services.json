@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "80184808712",
+    "firebase_url": "https://instagramfire-d37a1.firebaseio.com",
+    "project_id": "instagramfire-d37a1",
+    "storage_bucket": "instagramfire-d37a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80184808712:android:048b0fb4e4807a20",
+        "android_client_info": {
+          "package_name": "com.theblackcat102.fire.instagramfire"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80184808712-ij4e5nv3g6aksob58tf3tb2m3ogp850j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theblackcat102.fire.instagramfire",
+            "certificate_hash": "d27ed7de6a4180b363e70996fd880041b2b92b81"
+          }
+        },
+        {
+          "client_id": "80184808712-nlb6urk3gnrtj8da54aahpas0l1328qi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR_MmHxvkDpRm3Gyg9jXy5eijd9yWVdZU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80184808712-nlb6urk3gnrtj8da54aahpas0l1328qi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

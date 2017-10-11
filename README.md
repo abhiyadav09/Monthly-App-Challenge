@@ -62,5 +62,19 @@ Add your api key to the key parameter in FindRestaurant.java
 
 ```
 
-## May?
-Concept : trying firebase to make a serverless instagram like app ( started early cause I got midterm in May, QAQ ) 
+## May
+```
+  A Food delivery apps as my Android Course final projects, my team and I uses Stripe API for credit card transaction(demo)
+  okHttp3 for parsing the existing restaurant list (This may not be working as you see this, as the API may no longer exist)
+  Parse server provided by Back4app to handle incomming transaction records as well as interacting with Stripe API code.
+```
+
+#### Crap I was so busy working during my summer holiday and totally forgot about this challenge
+
+## October
+```
+  Getting bit tired of kept seeing these crap google ads popping up on my nanopool monitoring apps,
+  So I decided to write my own. Using OkHttp3 and nothing else
+
+```
+

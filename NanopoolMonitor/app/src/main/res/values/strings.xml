@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Nanopool Monitor</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="zec">Zcash</string>
+    <string name="eth">Etherium</string>
+    <string name="etc">Etherium Classic</string>
+    <string name="xmr">Monero</string>
+    <string name="wallet_title">Please Select a Wallet Type</string>
+    <string name="wallet_id">Wallet ID</string>
+    <string name="submit">Submit</string>
+    <string name="hint_wallet">Please select a wallet</string>
+    <string name="hint_wallet_id">Please input a valid wallet</string>
+    <string name="no_network">No Network Detected</string>
+</resources>
+

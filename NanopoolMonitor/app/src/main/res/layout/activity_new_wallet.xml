@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.theblackcat102.nanopoolmonitor.NewWallet">
+    <LinearLayout
+        android:layout_width="368dp"
+        android:gravity="center"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:textSize="@dimen/stats_title"
+            android:text="@string/wallet_title"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/hint"
+            android:id="@+id/wallet_hint"
+            android:layout_gravity="left"/>
+        <RadioGroup android:id="@+id/wallet_option"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:checkedButton="@+id/crypto"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/eth"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:text="@string/eth" />
+            <RadioButton
+                android:id="@+id/etc"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:text="@string/etc" />
+            <RadioButton
+                android:id="@+id/xmr"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:text="@string/xmr" />
+            <RadioButton
+                android:id="@+id/zec"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+                android:text="@string/zec" />
+        </RadioGroup>
+        <TextView
+            android:textSize="@dimen/stats_title"
+            android:layout_width="wrap_content"
+            android:gravity="left"
+            android:layout_height="wrap_content"
+            android:text="@string/wallet_id"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/wallet_id"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id= "@+id/submit_btn"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip" >
+
+    <TextView
+        android:id="@+id/stu_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:text="Description"
+        android:textColor="@color/colorDark"
+        android:textSize="@dimen/list_student_id" />
+
+    <TextView
+        android:id="@+id/stu_name"
+        android:gravity="right"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorDark"
+        android:layout_alignParentLeft="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginRight="@dimen/list_student_margin"
+        android:layout_toRightOf="@id/stu_name"
+        android:text="Example application"
+        android:textSize="@dimen/list_student_name" />
+
+</RelativeLayout>

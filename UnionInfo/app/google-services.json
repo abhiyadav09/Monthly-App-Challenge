@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "335446629875",
+    "firebase_url": "https://unioninfo-53ba9.firebaseio.com",
+    "project_id": "unioninfo-53ba9",
+    "storage_bucket": "unioninfo-53ba9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335446629875:android:d1fb48fae1ee9d39",
+        "android_client_info": {
+          "package_name": "com.theblackcat102.unioninfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335446629875-uf0atm9s3rrs180s9uufonttdlqsu5cs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theblackcat102.unioninfo",
+            "certificate_hash": "d27ed7de6a4180b363e70996fd880041b2b92b81"
+          }
+        },
+        {
+          "client_id": "335446629875-mdti9jhr5976e1bk4pdtfor8rj706577.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkwoJv0I61SibH3l_7HT5lKfx7n0bY3WQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335446629875-mdti9jhr5976e1bk4pdtfor8rj706577.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

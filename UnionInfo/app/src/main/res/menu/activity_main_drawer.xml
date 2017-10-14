@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/logout_action"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+        <item
+            android:id="@+id/nav_add_student"
+            android:icon="@drawable/ic_add_dark"
+            android:title="@string/new_student" />
+        <item
+            android:id="@+id/nav_change_keyboard"
+            android:icon="@drawable/ic_change_action"
+            android:title="@string/action_settings" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_hide"
+            android:title="@string/hide_fab" />
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

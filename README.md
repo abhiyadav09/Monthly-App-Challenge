@@ -92,8 +92,10 @@ Add your api key to the key parameter in FindRestaurant.java
 
 #### Setting up:
 1. apply for facebook login at developer.facebook.com and replace the secret key and token at strings.xml inside resource directory
-   <string name="facebook_app_id">----Facebook ID---</string>
-   <string name="fb_login_protocol_scheme">---Protocol Key---</string>
+```
+    <string name="facebook_app_id">----Facebook ID---</string>
+    <string name="fb_login_protocol_scheme">---Protocol Key---</string>
+```
 2. add your firebase google-service.json to the project and allow database function, authentication at your console.
 3. for demo purpose a student_demo.json data is included in the project root. You can import it to your database to see the result. 
 

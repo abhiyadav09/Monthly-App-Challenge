@@ -72,9 +72,9 @@ Add your api key to the key parameter in FindRestaurant.java
 #### Crap I was so busy working during my summer holiday and totally forgot about this challenge
 
 ## September
-
-<img src="/img/nanopool.png" width="20%" align="center">
-
+<p align="center">
+  <img src="/img/nanopool.png" width="30%" >
+</p>
 ```
   Getting bit tired of kept seeing these crap google ads popping up on my nanopool monitoring apps,
   So I decided to write my own. Using OkHttp3 and nothing else

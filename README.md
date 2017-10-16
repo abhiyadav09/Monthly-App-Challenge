@@ -72,7 +72,9 @@ Add your api key to the key parameter in FindRestaurant.java
 #### Crap I was so busy working during my summer holiday and totally forgot about this challenge
 
 ## September
-<img src="/img/nanopool.png" width="100">
+
+<img src="/img/nanopool.png" width="50%">
+
 ```
   Getting bit tired of kept seeing these crap google ads popping up on my nanopool monitoring apps,
   So I decided to write my own. Using OkHttp3 and nothing else
@@ -87,6 +89,7 @@ Add your api key to the key parameter in FindRestaurant.java
    update, allows Facebook login and allows adding new student input. 
    
 ```
+
 #### Setting up:
 1. apply for facebook login at developer.facebook.com and replace the secret key and token at strings.xml inside resource directory
    <string name="facebook_app_id">----Facebook ID---</string>

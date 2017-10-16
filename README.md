@@ -6,7 +6,7 @@ Make an app every month, that's all
 ##  January
 
 <p align="center">
-  <img src="/img/painting.png" width="80%" >
+  <img src="/img/painting.jpg" width="80%" >
 </p>
 
 ```

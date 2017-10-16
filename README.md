@@ -4,7 +4,11 @@ Make an app every month, that's all
 
 
 ##  January
-![Alt text](/img/painting.jpg?raw=true "Optional Title")
+
+<p align="center">
+  <img src="/img/painting.png" width="80%" >
+</p>
+
 ```
 
 There were times when I wish there is a quick painting app which only provide 
@@ -16,7 +20,11 @@ sketch idea through jpeg image!
 
 ```
 ## February
-![Alt text](/img/bluetooth.jpg?raw=true "Optional Title")
+
+<p align="center">
+  <img src="/img/bluetooth.jpg" width="80%" >
+</p>
+
 ```
 
 Finish this app in 24 hours, it has a usable bluetooth service with 
@@ -29,7 +37,11 @@ partial code were able to receive sensor value from the module.
 ```
 
 ## March
-![Alt text](/img/cpussy.jpg?raw=true "Optional Title")
+
+<p align="center">
+  <img src="/img/cpussy.jpg" width="80%" >
+</p>
+
 ```
 
 Getting tired of kept bombarded by ads in cpu-z and cpux, hence this 
@@ -42,7 +54,11 @@ bottom bar!
 ```
 
 ## April
-![Alt text](/img/bikeline.jpg?raw=true "Optional Title")
+
+<p align="center">
+  <img src="/img/bikeline.jpg" width="80%" >
+</p>
+
 ```
 
 This is a collaborate project with my friends in NCTU, be sure to 
@@ -72,16 +88,21 @@ Add your api key to the key parameter in FindRestaurant.java
 #### Crap I was so busy working during my summer holiday and totally forgot about this challenge
 
 ## September
+
 <p align="center">
   <img src="/img/nanopool.png" width="30%" >
 </p>
+
 ```
   Getting bit tired of kept seeing these crap google ads popping up on my nanopool monitoring apps,
   So I decided to write my own. Using OkHttp3 and nothing else
 
 ```
 ## October 
-![Alt text](/img/unioninfo.png?raw=true )
+
+<p align="center">
+  <img src="/img/unioninfo.png" width="80%" >
+</p>
 
 ```
    Rewritten NCTU student union fee checking app in native android development using Firebase backend 

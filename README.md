@@ -73,7 +73,7 @@ Add your api key to the key parameter in FindRestaurant.java
 
 ## September
 
-<img src="/img/nanopool.png" width="50%">
+<img src="/img/nanopool.png" width="20%" align="center">
 
 ```
   Getting bit tired of kept seeing these crap google ads popping up on my nanopool monitoring apps,

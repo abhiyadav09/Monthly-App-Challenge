@@ -72,13 +72,14 @@ Add your api key to the key parameter in FindRestaurant.java
 #### Crap I was so busy working during my summer holiday and totally forgot about this challenge
 
 ## September
+![Alt text](/img/nanopool.png?raw=true | width=100)
 ```
   Getting bit tired of kept seeing these crap google ads popping up on my nanopool monitoring apps,
   So I decided to write my own. Using OkHttp3 and nothing else
 
 ```
 ## October 
-![Alt text](/img/unioninfo.png?raw=true "Optional Title")
+![Alt text](/img/unioninfo.png?raw=true )
 
 ```
    Rewritten NCTU student union fee checking app in native android development using Firebase backend 

@@ -44,11 +44,11 @@ partial code were able to receive sensor value from the module.
 
 ```
 
-Getting tired of kept bombarded by ads in cpu-z and cpux, hence this 
-idea was borned to make my own android system monitor 
+Getting tired of kept bombarded by ads in cpu-z and cpux, hence I decide 
+to write my own android system monitor 
 
-This app will get information about cpu, sensor real time update and memory 
-info. This application also implemented @roughike awesome 
+This app will parse information from your android phone about cpu, real time sensor 
+update and memory info. This application also implemented @roughike awesome 
 bottom bar!
 
 ```
@@ -80,12 +80,12 @@ Add your api key to the key parameter in FindRestaurant.java
 
 ## May
 ```
-  A Food delivery apps as my Android Course final projects, my team and I uses Stripe API for credit card transaction(demo)
+  A Food delivery apps as my Android Course final projects, my team and I uses Stripe API for credit card transaction (demo)
   okHttp3 for parsing the existing restaurant list (This may not be working as you see this, as the API may no longer exist)
   Parse server provided by Back4app to handle incomming transaction records as well as interacting with Stripe API code.
 ```
 
-#### Crap I was so busy working during my summer holiday and totally forgot about this challenge
+#### June and July? I was so busy working during my summer holiday and totally forgot about this challenge
 
 ## September
 
@@ -106,7 +106,8 @@ Add your api key to the key parameter in FindRestaurant.java
 
 ```
    Rewritten NCTU student union fee checking app in native android development using Firebase backend 
-   instead of previous Flask RESTful API. Much faster improvement in search speed, real time data 
+   instead of previous Flask RESTful API and Xamarin. 
+   This version has a much faster improvement in search speed (2x), real time data 
    update, allows Facebook login and allows adding new student input. 
    
 ```
